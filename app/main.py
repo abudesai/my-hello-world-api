@@ -5,7 +5,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-@app.get("/hello")
+@app.get("/say_hello")
 def say_hello():
     return {
         "message": "Hello World! Welcome to my app!!!” "
